@@ -1,0 +1,26 @@
+storage class - defines where variable is stored in memory
+
+Storage_class      Memory Loacation        Default value    Life                        Scope
+
+1. Automatic       Stack Segment           Garbage          Within fun                  Within fun
+2. Static          Data Segment            Zero             Whole Prgrm                 Within Fun
+3. Extern          Data Segment            Zero             Global to Multiple files    Whole prgrm
+4. Register        CPU Register            Garbage          Within fun                  Within fun
+
+Segmentation: Max size = 64KB (86 Architecture)/ 2MB for latest Architecture
+1. Code : code of prgrm
+2. Data : Intialized variables
+3. Stack : Uninitialized variables & context switch op
+4. Extra / Heap : Dynamic memory allocation
+
+ASCII
+Decimal digits : 30H to 39H OR 48 to 56
+Capital Alphabets: 41H to 5B OR 65 to 90
+Second Letter alpha: 61H to 7A OR 97 to 122
+
+Logical op        Bit wise
+__________        _________
+AND     &&        &             x=6 =0110 & 1111 =0110
+OR      ||        |             x=6 =0110 | 1111 =1111
+NOT     ~         ~
+XOR     ^^        ^             x=6 =0110 ^ 1111 =1001
